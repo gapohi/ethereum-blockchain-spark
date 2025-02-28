@@ -5,12 +5,16 @@ it as Spark DataFrames for exploratory data analysis. The research analyses vari
 the transaction volumes, top transactions by value, duplicated hashes, activity peaks, gas fees, mixers 
 use, time between blocks, frequent addresses, and other...
 
-Tools:
-- Ubuntu	(Linux-based operating system for the project environment) -- 24.04.1
-- Docker	(Container to set up Apache Spark and install Python dependencies) -- 27.2.0
-- Python	(Main programming language for the application) -- 3.12.3
-- PySpark	(Python library for efficient processing and exploration of large datasets) -- 3.5.4
-- Web3		(Python library for Ethereum API blockchain interactions) -- 7.8.0
+## Main Tools
+
+- `Ubuntu`	(Linux-based operating system for the project environment) -- 24.04.1
+- `Docker`	(Container to set up Apache Spark and install Python dependencies) -- 27.2.0
+- `Python`	(Main programming language for the application) -- 3.12.3
+- `PySpark`	(Python library for efficient processing and exploration of large datasets) -- 3.5.4
+- `Web3`		(Python library for Ethereum API blockchain interactions) -- 7.8.0
+
+## Output Sample
+![pic2](https://github.com/user-attachments/assets/2021cd49-d5f1-421e-aab1-439b5ddfae5e)
 
 ## Disclaimer on Financial Decisions
 
@@ -35,12 +39,12 @@ ethereum-blockchain-spark/
 
 ## Installation
 
-1. Clone the repository to your local Linux machine:
+1. Start Ubuntu.
+
+2. Clone the repository to your local Linux machine:
 ```bash
 git clone https://github.com/gapohi/ethereum-blockchain-spark.git
 ```
-
-2. Start Ubuntu.
 
 3. Navigate to the repository directory:
 ```bash
